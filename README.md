@@ -65,7 +65,7 @@ Each section is broken down by topic:
 
 ### 0. Malware Handling and Safety
 
-This section covers basic malware handing and safety, includiong defanging malware and safe practices for transfer and storage.
+This section covers basic malware handing and safety, including defanging malware and safe practices for transfer and storage.
 
 ### 1. Basic Static | Basic Dynamic
 
@@ -75,7 +75,7 @@ This section covers initial triage, static analysis, initial detonation, and the
 
 This section covers advanced malware analysis methodology and introduces Assembly, debugging, decompiling, and inspecting the Windows API at the ASM level.
 
-### 3. Speciality Class Malware
+### 3. Specialty Class Malware
 
 This section covers different specialty classes of malware like maldocs, C# assemblies, and script-based malware. It also includes a section on mobile platform malware analysis.
 
