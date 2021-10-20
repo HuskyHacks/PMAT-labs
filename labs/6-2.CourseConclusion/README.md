@@ -1,6 +1,6 @@
 # Course Conclusion
 
-If you're reading this, congratulations! You have made it all the way through Practical Malware Analysis & Triage. I hope you enjoyed this course! If you have any feedback, I'd love ot hear how I can make this course better. Feel free to DM me on Discord and let me know your thoughts on how to improve this course for future students.
+If you're reading this, congratulations! You have made it all the way through Practical Malware Analysis & Triage. I hope you enjoyed this course! If you have any feedback, I'd love to hear how I can make this course better. Feel free to DM me on Discord and let me know your thoughts on how to improve this course for future students.
 
 I wanted to end with a few further readings & resources to give you a good idea on where to continue your malware analysis & RE journey. 
 
@@ -10,7 +10,7 @@ I wanted to end with a few further readings & resources to give you a good idea 
 
 [![pma][pmabadge]][pma]
 
-One of the only course textbooks that was so good, I purchased it after the course was done. Practical Malware Analysis is the spiritual ancestor of this course and my methodology has been greatly influenced by the amazing information present in this book. There is no single better resource for malware analysis and RE to keep on hand than PMA.
+One of the only course textbooks that was so good, I purchased it after the course was done. Practical Malware Analysis is the spiritual ancestor of this course, and my methodology has been greatly influenced by the amazing information present in this book. There is no single better resource for malware analysis and RE to keep on hand than PMA.
 
 ## MalwareUnicorn Reverse Engineering Workshops
 
@@ -46,7 +46,7 @@ In no particular order:
 
 Thank you to Heath and TCM Security for giving me the opportunity to create something for the community.
 
-Thank you to all the students who have purchased this course. You have supported me as a content creator and I thank you for that.
+Thank you to all the students who have purchased this course. You have supported me as a content creator, and I thank you for that.
 
 Thank you to Prof Weissman at RIT and Mike Sikorski for lighting the way.
 
