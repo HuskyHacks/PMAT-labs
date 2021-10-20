@@ -149,7 +149,7 @@ Links
 [release]:https://github.com/HuskyHacks/PMAT-labs/releases/
 [repo]:https://github.com/HuskyHacks/PMAT-labs/ "PMAT-lab repo ➶"
 [eula]:https://github.com/HuskyHacks/PMAT-labs/blob/main/EULA.md "EULA ➶"
-[course-link]: https://academy.tcm-sec.com/courses/practical-malware-analysis-triage
+[course-link]: https://academy.tcm-sec.com/
 
 <!--
 Badges
