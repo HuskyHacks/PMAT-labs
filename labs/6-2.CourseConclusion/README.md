@@ -19,7 +19,7 @@ One of the only course textbooks that was so good, I purchased it after the cour
 Amanda Rousseau's ([Malware Unicorn](https://twitter.com/malwareunicorn)) reverse engineering workshops, which contain in-depth technical explorations of different RE topics. Available for free! 
 
 
-## Zeltser.com | Lenny Zeltzer
+## Zeltser.com | Lenny Zeltser
 [![zeltser][zeltserbadge]][zeltserlink]
 
 
