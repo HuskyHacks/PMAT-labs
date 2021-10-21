@@ -138,7 +138,7 @@ It's a bit of a hefty file (about 1.6MB), unlike Cosmo himself who is not a heft
 I wrote the samples for this course from the ground up to be as safe as possible. I am aware that putting malware samples out into the world, regardless of your intention for doing so, imparts risk. So to help mitigate the possibility that these samples could be used maliciously, I've keyed them to this particular file. This is a red team tactic that ensures a payload will only trigger if there are certain identifiers present in the environment. `cosmo.jpeg` present on the Desktop of FLAREVM acts as the key for most of the malware samples in this course.
 
 ### Instructions
-When you are done downloading and extracting this lab repository, take `cosmo.jpeg` and copy it to the desktop of the Administrator user on the Windows FLAREVM host. That's all!
+When you are done downloading and extracting this lab repository, take `cosmo.jpeg` and copy it to the desktop of the main user account on the Windows FLARE-VM host. That's all!
 
 
 
