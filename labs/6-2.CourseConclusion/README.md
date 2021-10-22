@@ -22,8 +22,12 @@ Amanda Rousseau's ([Malware Unicorn](https://twitter.com/malwareunicorn)) revers
 ## Zeltser.com | Lenny Zeltser
 [![zeltser][zeltserbadge]][zeltserlink]
 
-
 A fantastic compilation of malware analysis resources produced by the man himself.
+
+## John Hammond
+[![hammond][hammondbadge]][hammondlink]
+
+I am but a disciple of this field: John Hammond is the true jedi master. John puts out amazing RE content on his YouTube channel. He's a true gent and master of the craft and I recommend all of his RE/Analysis videos for further reading/viewing
 
 ## References
 
@@ -40,6 +44,7 @@ In no particular order:
 - RastaMouse
 - Prof Jonathan Weissman | RIT
 - eLS | eCPTX
+- John Hammond
 - Too many one-off blog posts and errant google searches to keep track of. Thank you all :)
 
 ## Acknowledgements
@@ -68,6 +73,9 @@ Links
 
 [zeltserlink]: https://zeltser.com/malicious-software/  "Zeltser.com ➶"
 
+[hammondlink]: https://www.youtube.com/c/JohnHammond010  "John Hammond on Youtube ➶"
+
+
 
 
 <!--
@@ -76,3 +84,4 @@ Badges
 [pmabadge]:https://img.shields.io/badge/PMA-On%20Amazon-367588.svg?style=for-the-badge
 [malwareunicornbadge]:https://img.shields.io/badge/malwareunicorn-workshops-367588.svg?style=for-the-badge
 [zeltserbadge]:https://img.shields.io/badge/Zeltser.com-367588.svg?style=for-the-badge
+[hammondbadge]:https://img.shields.io/badge/John%20Hammond-On%20Youtube-red.svg?style=for-the-badge
