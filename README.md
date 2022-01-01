@@ -19,7 +19,7 @@ Welcome to the labs for Practical Malware Analysis &amp; Triage.
 
 Read this carefully before proceeding.
 
-This repository contains live malware samples for use in the Practical Malware Analysis & Triage course (PMAT). These samples are either written to emulate common malware characteristics or are live, real world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
+This repository contains live malware samples for use in the [Practical Malware Analysis & Triage course (PMAT)][course-link]. These samples are either written to emulate common malware characteristics or are live, real world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
 
 - Do not download these samples to a computer you do not own.
 - Do not execute any of these samples on a computer you do not own.
