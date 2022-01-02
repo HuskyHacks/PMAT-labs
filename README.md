@@ -10,7 +10,7 @@ Welcome to the labs for Practical Malware Analysis &amp; Triage.
 
 ---
 
-[![Release Version][img-version-badge]][release] [![Course Link][course]][course-link] [![EULA][img-license-badge]][eula]
+[![Release Version][img-version-badge]][release] [![Course Link][course]][course-link] [![EULA][img-license-badge]][eula] ![student-count]
 
 ---
 
@@ -160,3 +160,4 @@ Badges
 [img-version-badge]:https://img.shields.io/badge/Version-1.0%20%7C%20Oct%202021-blue?style=for-the-badge
 [lastcommit]:https://img.shields.io/github/last-commit/HuskyHacks/PMAT-labs?style=for-the-badge
 [img-license-badge]:https://img.shields.io/badge/license-eula-367588.svg?style=for-the-badge
+[student-count]:https://img.shields.io/badge/Students-2K+-orange?style=for-the-badge
