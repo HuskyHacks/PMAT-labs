@@ -25,6 +25,16 @@ Q: Describe the results of pulling the strings from this binary. Record and desc
 
 A: The strings section of this challenge is more difficult than usual, because this malware sample appears to be a normal working program! The normal strings associated with PuTTY are present in the binary. Inspecting some of the strings that appear to be URLs reveals nothing of note as these URLs are standard to the normal PuTTY executable. Strings seems to be a dead end for this binary.
 
+Note that, while difficult, it is possible to find the payload of this binary in the strings. This is difficult because you need to know what you are looking for (in this case, a PowerShell one liner) and there is no indication other than the flashing blue screen that this is a powershell payload. The following strings command can be used to identify the payload for this binary:
+
+```
+$ [strings|floss] putty.exe | grep -i "powershell"
+```
+
+![image](https://user-images.githubusercontent.com/57866415/148550069-2ba2f587-2a23-4ad4-8903-0558f049293c.png)
+
+(screencap taken from student deFr0ggy's notes: https://github.com/deFr0ggy/PMAT-Labs-Walkthroughs/blob/main/1-3.Challenge-SillyPutty/Lab%201.3%20-%20Challenge%20-%20SillyPutty.pdf)
+
 ---
 
 Q: Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
