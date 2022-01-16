@@ -36,7 +36,7 @@ If you're here after purchasing the course, welcome! Thank you for supporting me
 
 If you're here not having purchased the course, welcome! The labs for the course are free (and always will be) and are hosted here on GitHub for anyone who is interested. But if you're don't quite know where to begin and/or are interested in learning malware analysis from 9+ hours of high-quality video content, consider buying the course! The videos were made with love to build you into a capable, knowledgeable malware analyst.
 
-If you want to purchase the course and support me as a content creator, please also consider using my affiliate link! I'd really appreciate it as it 
+If you want to purchase the course and support me as a content creator, please also consider using my affiliate link!
 
 <div align="center">
   
