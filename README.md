@@ -19,7 +19,7 @@ Welcome to the labs for Practical Malware Analysis &amp; Triage.
 
 Read this carefully before proceeding.
 
-This repository contains live malware samples for use in the [Practical Malware Analysis & Triage course (PMAT)][course-link]. These samples are either written to emulate common malware characteristics or are live, real world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
+This repository contains live malware samples for use in the Practical Malware Analysis & Triage course (PMAT). These samples are either written to emulate common malware characteristics or are live, real world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
 
 - Do not download these samples to a computer you do not own.
 - Do not execute any of these samples on a computer you do not own.
@@ -27,6 +27,23 @@ This repository contains live malware samples for use in the [Practical Malware 
 - Practice safe malware handling procedures at all times when using these samples.
 
 By downloading the contents of this repository, regardless of if you have purchased the course or not, you are agreeing to the End User License Agreement. Please refer to `EULA.md` for more information.
+
+---
+
+## About the Course ✏️📕
+
+If you're here after purchasing the course, welcome! Thank you for supporting me as a content creator. Read on to the next section to learn how the lab repo works.
+
+If you're here not having purchased the course, welcome! The labs for the course are free (and always will be) and are hosted here on GitHub for anyone who is interested. But if you're don't quite know where to begin and/or are interested in learning malware analysis from 9+ hours of high-quality video content, consider buying the course! The videos were made with love to build you into a capable, knowledgeable malware analyst.
+
+If you want to purchase the course and support me as a content creator, please also consider using my affiliate link! I'd really appreciate it as it 
+
+<div align="center">
+  
+[![Course Link][course]][course-link]
+[![Course Affiliate Link][course-affil]][course-affil-link]
+
+</div>
 
 ---
 
@@ -150,6 +167,7 @@ Links
 [repo]:https://github.com/HuskyHacks/PMAT-labs/ "PMAT-lab repo ➶"
 [eula]:https://github.com/HuskyHacks/PMAT-labs/blob/main/EULA.md "EULA ➶"
 [course-link]: https://academy.tcm-sec.com/p/practical-malware-analysis-triage
+[course-affil-link]: https://academy.tcm-sec.com/p/practical-malware-analysis-triage/?affcode=770707_llmpidil
 
 <!--
 Badges
@@ -157,6 +175,7 @@ Badges
 
 [students]:https://img.shields.io/github/downloads/HuskyHacks/PMAT-labs/total?label=Students&style=for-the-badge
 [course]:https://img.shields.io/badge/Course-Available%20Now!-green?style=for-the-badge
+[course-affil]:https://img.shields.io/badge/Course-Affiliate%20Link-orange?style=for-the-badge
 [img-version-badge]:https://img.shields.io/badge/Version-1.1%20%7C%20Jan%202022-blue?style=for-the-badge
 [lastcommit]:https://img.shields.io/github/last-commit/HuskyHacks/PMAT-labs?style=for-the-badge
 [img-license-badge]:https://img.shields.io/badge/license-eula-367588.svg?style=for-the-badge
