@@ -176,7 +176,7 @@ Badges
 [students]:https://img.shields.io/github/downloads/HuskyHacks/PMAT-labs/total?label=Students&style=for-the-badge
 [course]:https://img.shields.io/badge/Course-Available%20Now!-green?style=for-the-badge
 [course-affil]:https://img.shields.io/badge/Course-Affiliate%20Link-orange?style=for-the-badge
-[img-version-badge]:https://img.shields.io/badge/Version-1.3%20%7C%20July%202022-blue?style=for-the-badge
+[img-version-badge]:https://img.shields.io/badge/Version-1.4%20%7C%20August%202022-blue?style=for-the-badge
 [lastcommit]:https://img.shields.io/github/last-commit/HuskyHacks/PMAT-labs?style=for-the-badge
 [img-license-badge]:https://img.shields.io/badge/license-eula-367588.svg?style=for-the-badge
 [student-count]:https://img.shields.io/badge/Students-4K+-orange?style=for-the-badge
