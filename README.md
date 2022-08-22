@@ -179,4 +179,4 @@ Badges
 [img-version-badge]:https://img.shields.io/badge/Version-1.4%20%7C%20August%202022-blue?style=for-the-badge
 [lastcommit]:https://img.shields.io/github/last-commit/HuskyHacks/PMAT-labs?style=for-the-badge
 [img-license-badge]:https://img.shields.io/badge/license-eula-367588.svg?style=for-the-badge
-[student-count]:https://img.shields.io/badge/Students-15K+-orange?style=for-the-badge
+[student-count]:https://img.shields.io/badge/Students-30K+-orange?style=for-the-badge
