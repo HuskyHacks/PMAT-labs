@@ -83,7 +83,7 @@ Q: Use Cutter to locate the killswitch mechanism in the decompiled code and expl
 
 A: The killswitch operates like this:
 
-- In the main function of WannaCry, the string of the killswitch URL is moved into ESI.
+- In the main function of WannaCry, the string of the killswitch URL is moved into ECX.
 - The arguments for InternetOpenA are pushed onto the stack. The boolean result of InternetOpenA is moved into EAX.
 - The arguments for InternetOpenUrlA are pushed onto the stack, including the killswitch URL.
 The result of InternetOpenUrlA is moved into EAX. Then, this result is also moved into EDI.
