@@ -102,4 +102,6 @@ ncat -nvlp --ssl 8443
 
 Another is to pull the PowerShell payload out of the binary via decompression/base64 decoding, and remove the argument for `-sslcon true`. This removes the reverse shell's requirement to negotiate a TLS handshake.
 
+![image](https://user-images.githubusercontent.com/57866415/190147873-ad0f1b3d-89fd-49e8-9884-17f8b470605c.png)
+
 Another way: the module used to spawn this reverse shell is available in Metasploit. Try to figure out which module is in use, bring a Kali machine into the lab, and catch the incoming shell!
