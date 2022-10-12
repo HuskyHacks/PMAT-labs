@@ -7,7 +7,7 @@ The help desk has received a few calls from different IT admins regarding the at
 IR Team
 
 ## Objective
-Perform basic static and basic dynamic analysis on this malware sample and extract facts about the malware's behavior. Answer the challenge questions below. If you get stuck, the `answers/` directroy has the answers to the challenge.
+Perform basic static and basic dynamic analysis on this malware sample and extract facts about the malware's behavior. Answer the challenge questions below. If you get stuck, the `answers/` directory has the answers to the challenge.
 
 ## Tools
 Basic Static:
