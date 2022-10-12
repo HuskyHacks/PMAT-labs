@@ -2,12 +2,12 @@
 
 Hello Analyst,
 
-The help desk has received a few calls from different IT admins regarding the attached program.They say that they've been using this program with no problems until recently. Now, it's crashing randomly and popping up blue windows when its run. I don't like the sound of that. Do your thing!
+The help desk has received a few calls from different IT admins regarding the attached program. They say that they've been using this program with no problems until recently. Now, it's crashing randomly and popping up blue windows when it's run. I don't like the sound of that. Do your thing!
 
 IR Team
 
 ## Objective
-Perform basic static and basic dynamic analysis on this malware sample and extract facts about the malware's behavior. Answer the challenge quesitons below. If you get stuck, the `answers/` directroy has the answers to the challenge.
+Perform basic static and basic dynamic analysis on this malware sample and extract facts about the malware's behavior. Answer the challenge questions below. If you get stuck, the `answers/` directroy has the answers to the challenge.
 
 ## Tools
 Basic Static:
