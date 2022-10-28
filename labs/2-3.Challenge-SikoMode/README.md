@@ -13,7 +13,7 @@ IR Team
 ## Objective
 Perform static and dynamic analysis on this malware sample and extract facts about the malware's behavior. Use all tools and skills in your arsenal! Be sure to include a limited amount of debugging and decompiling and employ advanced methodology to the extent that you are comfortable. 
 
-Answer the challenge quesitons below. If you get stuck, the `answers/` directroy has the answers to the challenge.
+Answer the challenge quesitons below. If you get stuck, the `answers/` directory has the answers to the challenge.
 
 
 ## Tools
