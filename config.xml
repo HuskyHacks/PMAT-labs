@@ -14,7 +14,7 @@
         <package name="capa.vm"/>
         <package name="cmder.vm"/>
         <package name="cyberchef.vm"/>
-        <package name="cygwin.vm"/>
+        <package name="cutter.vm"/>
         <package name="die.vm"/>
         <package name="dnspyex.vm"/>
         <package name="explorersuite.vm"/>
@@ -42,5 +42,10 @@
         <package name="x64dbg.ollydumpex.vm"/>
         <package name="x64dbg.vm"/>
         <package name="x64dbgpy.vm"/>
+        <package name="dependencywalker"/>
+        <package name="npcap"/>
+        <package name="nmap"/>
+        <package name="pebear"/>
+        <package name="yara"/>
     </packages>
 </config>
