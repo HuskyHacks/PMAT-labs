@@ -43,7 +43,6 @@
         <package name="x64dbg.vm"/>
         <package name="x64dbgpy.vm"/>
         <package name="dependencywalker"/>
-        <package name="npcap"/>
         <package name="nmap"/>
         <package name="pebear"/>
         <package name="yara"/>
