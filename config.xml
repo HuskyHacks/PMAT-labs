@@ -42,9 +42,9 @@
         <package name="x64dbg.ollydumpex.vm"/>
         <package name="x64dbg.vm"/>
         <package name="x64dbgpy.vm"/>
-        <package name="dependencywalker"/>
-        <package name="nmap"/>
-        <package name="pebear"/>
-        <package name="yara"/>
+        <package name="dependencywalker.vm"/>
+        <package name="nmap.vm"/>
+        <package name="pebear.vm"/>
+        <package name="yara.vm"/>
     </packages>
 </config>
