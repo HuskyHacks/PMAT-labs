@@ -47,5 +47,6 @@
         <package name="pebear.vm"/>
         <package name="yara.vm"/>
         <package name="hxd.vm"/>
+        <package name="pestudio.vm"/>
     </packages>
 </config>
