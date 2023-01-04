@@ -48,5 +48,6 @@
         <package name="yara.vm"/>
         <package name="hxd.vm"/>
         <package name="pestudio.vm"/>
+        <package name="scdbg.vm"/>
     </packages>
 </config>
