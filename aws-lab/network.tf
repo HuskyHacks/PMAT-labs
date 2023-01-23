@@ -21,7 +21,7 @@ resource "aws_internet_gateway" "lab_ig" {
 resource "aws_subnet" "lab_public_subnet" {
   vpc_id                  = aws_vpc.lab_vpc.id
   cidr_block              = "10.0.0.0/24"
-  availability_zone       = "us-east-1a"
+  availability_zone       = var.availability_zone
   map_public_ip_on_launch = true
 
   tags = {
@@ -178,7 +178,7 @@ resource "aws_security_group" "security_group_guacamole" {
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
-    cidr_blocks      = ["${chomp(data.http.myip.body)}/32"]
+    cidr_blocks      = ["${chomp(data.http.myip.response_body)}/32"]
   }
 
   egress {

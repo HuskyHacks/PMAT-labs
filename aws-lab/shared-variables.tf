@@ -23,6 +23,11 @@ variable "region" {
   default     = "us-east-1"
 }
 
+variable "availability_zone" {
+  description = "The best AWS availability zone for your location"
+  default     = "us-east-1a"
+}
+
 variable "enable_guacamole" {
   description = "Whether to enable the Guacamole server for remote access to the instances (If enabled the FlareVM will have not Internet)"
   default     = true
