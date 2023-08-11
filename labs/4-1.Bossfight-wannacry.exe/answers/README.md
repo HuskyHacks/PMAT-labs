@@ -87,8 +87,8 @@ A: The killswitch operates like this:
 - The arguments for InternetOpenA are pushed onto the stack. The boolean result of InternetOpenA is moved into EAX.
 - The arguments for InternetOpenUrlA are pushed onto the stack, including the killswitch URL.
 The result of InternetOpenUrlA is moved into EAX. Then, this result is also moved into EDI.
-- The handle is closed and the program compares the value of EDI to 0 (comparing a boolean true or false).
-- If the value is 0, WannaCry makes a call to the first function in the payload.
+- The handle is closed and the program evaluates the value of EDI. 
+- If the value is 0x0 (i.e, NULL), WannaCry makes a call to the first function in the payload.
 - Else, WannaCry exits without triggering the payload.
 
 
