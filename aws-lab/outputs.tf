@@ -17,3 +17,13 @@ output "guacamole_credentials" {
   description = "Guacamole credentials"
   value       = var.enable_guacamole == false ? null : data.external.guacamole_credentials[0].result
 }
+
+output "flarevm_credentials" {
+  description = "Default credentials for the PMAT FLARE-VM base AMI. PLEASE CHANGE THESE!"
+  value = "Administrator:PLEASEchangeThisPassword123"
+}
+
+output "remnux_credentials" {
+  description = "Default credentials for the PMAT REMnux base AMI. PLEASE CHANGE THESE!"
+  value = "remnux:malware"
+}
