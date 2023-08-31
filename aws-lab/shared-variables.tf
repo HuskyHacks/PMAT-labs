@@ -34,5 +34,5 @@ variable "enable_guacamole" {
 }
 
 data "http" "myip" {
-  url = "http://ifconfig.me"
+  url = "http://ipv4.icanhazip.com"
 }
