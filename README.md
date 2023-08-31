@@ -19,14 +19,14 @@ Welcome to the labs for Practical Malware Analysis &amp; Triage.
 
 Read this carefully before proceeding.
 
-This repository contains live malware samples for use in the Practical Malware Analysis & Triage course (PMAT). These samples are either written to emulate common malware characteristics or are live, real world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
+This repository contains live malware samples for use in the Practical Malware Analysis & Triage course (PMAT). These samples are either written to emulate common malware characteristics or are live, real-world, "caught in the wild" samples. Both categories are dangerous. These samples are to be handled with extreme caution at all times.
 
 - Do not download these samples to a computer you do not own.
 - Do not execute any of these samples on a computer you do not own.
-- Do not download and/or execute these samples in an environment that you cannot revert to a saved state, i.e. a virtual machine.
+- Do not download and/or execute these samples in an environment where you cannot revert to a saved state, i.e. a virtual machine.
 - Practice safe malware handling procedures at all times when using these samples.
 
-By downloading the contents of this repository, regardless of if you have purchased the course or not, you are agreeing to the End User License Agreement. Please refer to `EULA.md` for more information.
+By downloading the contents of this repository, regardless of whether you have purchased the course or not, you are agreeing to the End User License Agreement. Please refer to `EULA.md` for more information.
 
 ---
 
@@ -34,7 +34,7 @@ By downloading the contents of this repository, regardless of if you have purcha
 
 If you're here after purchasing the course, welcome! Thank you for supporting me as a content creator. Read on to the next section to learn how the lab repo works.
 
-If you're here not having purchased the course, welcome! The labs for the course are free (and always will be) and are hosted here on GitHub for anyone who is interested. But if you're don't quite know where to begin and/or are interested in learning malware analysis from 9+ hours of high-quality video content, consider buying the course! The videos were made with love to build you into a capable, knowledgeable malware analyst.
+If you're here not having purchased the course, welcome! The labs for the course are free (and always will be) and are hosted here on GitHub for anyone who is interested. But if you don't quite know where to begin and/or are interested in learning malware analysis from 9+ hours of high-quality video content, consider buying the course! The videos were made with love to build you into a capable, knowledgeable malware analyst.
 
 If you want to purchase the course and support me as a content creator, please also consider using my affiliate link!
 
@@ -82,7 +82,7 @@ Each section is broken down by topic:
 
 ### 0. Malware Handling and Safety
 
-This section covers basic malware handing and safety, including defanging malware and safe practices for transfer and storage.
+This section covers basic malware handling and safety, including defanging malware and safe practices for transfer and storage.
 
 ### 1. Basic Static | Basic Dynamic
 
@@ -98,7 +98,7 @@ This section covers different specialty classes of malware like maldocs, C# asse
 
 ### 4. Bossfights!
 
-The Bossfights pit you against infamous real world samples of malware and require you to do a full analysis.
+The Bossfights pit you against infamous real-world samples of malware and require you to do a full analysis.
 
 ### 5. Automation | Rule Writing | Report Writing
 
@@ -120,7 +120,7 @@ The challenge samples in this course are used as mini-capstones for the differen
 ---
 
 ## Password 🔒
-Each sample is zipped and password protected. The password for all malware samples is `infected`.
+Each sample is zipped and password-protected. The password for all malware samples is `infected`.
 
 ---
 
@@ -146,7 +146,7 @@ That's Cosmo, my cat. He's not very good at malware analysis, so he's along for 
 
 The malware samples in this course are built to perform different functions. Some are designed to destroy data. Some are designed to steal it. Some don't touch your data at all.
 
-`cosmo.jpeg` is a placeholder for the precious, precious data that an average end user may have on their host. Some malware samples in this course will steal him, encrypt him, encode and exfiltrate him, the whole nine yards. So to accurately represent what data theft or destruction might look like, the custom written malware samples in this course are going to target this file specifically.
+`cosmo.jpeg` is a placeholder for the precious, precious data that an average end user may have on their host. Some malware samples in this course will steal him, encrypt him, encode and exfiltrate him, the whole nine yards. So to accurately represent what data theft or destruction might look like, the custom-written malware samples in this course are going to target this file specifically.
 
 It's a bit of a hefty file (about 1.6MB), unlike Cosmo himself who is not a hefty cat at all. So it should serve well as a data file placeholder.
 
@@ -176,7 +176,7 @@ Badges
 [students]:https://img.shields.io/github/downloads/HuskyHacks/PMAT-labs/total?label=Students&style=for-the-badge
 [course]:https://img.shields.io/badge/Course-Available%20Now!-green?style=for-the-badge
 [course-affil]:https://img.shields.io/badge/Course-Affiliate%20Link-orange?style=for-the-badge
-[img-version-badge]:https://img.shields.io/badge/Version-1.7%20%7C%20February%202023-blue?style=for-the-badge
+[img-version-badge]:https://img.shields.io/badge/Version-1.8%20%7C%20September%202023-blue?style=for-the-badge
 [lastcommit]:https://img.shields.io/github/last-commit/HuskyHacks/PMAT-labs?style=for-the-badge
 [img-license-badge]:https://img.shields.io/badge/license-eula-367588.svg?style=for-the-badge
-[student-count]:https://img.shields.io/badge/Students-36K+-orange?style=for-the-badge
+[student-count]:https://img.shields.io/badge/Students-38K+-orange?style=for-the-badge
