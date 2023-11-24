@@ -49,4 +49,24 @@
         <package name="pestudio.vm"/>
         <package name="scdbg.vm"/>
     </packages>
+    <registry-items>
+        <!--
+        INFO:
+        Makes custom edits to the registry
+        FORMAT:
+        <registry-item name="DESCRIPTIVE_NAME" path="REG_PATH" value="REG_VALUE" type="TYPE" data="NEW_DATA"/>
+        -->
+        <registry-item name="Show full directory path in Explorer title bar" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" value="FullPath" type="DWord" data="1"/>
+        <registry-item name="Show known file extensions" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value="HideFileExt" type="DWord" data="0"/>
+        <registry-item name="Show hidden files" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value="Hidden" type="DWord" data="1"/>
+        <registry-item name="Disable SmartScreen" path="HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" value="EnableSmartScreen" type="DWord" data="0" />
+        <registry-item name="Disable Microsoft Edge Phishing Filter" path="HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter" value="EnabledV9" type="DWord" data="0" />
+        <registry-item name="Disable Windows Firewall (Standard Profile)" path="HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile" value="EnableFirewall" type="DWord" data="0" />
+        <registry-item name="Add ZoomIt to Windows Start" path="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\run" value="ZoomIt" type="String" data="C:\Tools\sysinternals\ZoomIt64.exe" />
+        <registry-item name="Don't display ZoomIt GUI on login" path="HKCU:\Software\Sysinternals\ZoomIt" value="OptionsShown" type="DWord" data="1" />
+        <registry-item name="Auto arrange Desktop icons" path="HKCU:\SOFTWARE\Microsoft\Windows\Shell\Bags\1\Desktop" value="FFlags" type="DWord" data="1075839525"/>
+        <registry-item name="Hide the .lnk extension" path="HKLM:\SOFTWARE\Classes\lnkfile" value="NeverShowExt" type="String" data=" "/>
+        <registry-item name="Set Dark Mode on System" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" value="SystemUsesLightTheme" type="DWord" data="0"/>
+        <registry-item name="Set Dark Mode on Apps" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" value="AppsUseLightTheme" type="DWord" data="0"/>
+    </registry-items>
 </config>
