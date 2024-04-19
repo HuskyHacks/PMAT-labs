@@ -44,6 +44,7 @@
         <package name="hxd.vm"/>
         <package name="pestudio.vm"/>
         <package name="scdbg.vm"/>
+        <package name="python3.vm"/>
     </packages>
     <registry-items>
         <registry-item name="Show full directory path in Explorer title bar" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" value="FullPath" type="DWord" data="1"/>
