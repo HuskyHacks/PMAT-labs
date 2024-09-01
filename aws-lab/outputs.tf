@@ -13,10 +13,10 @@ output "guacamole_public_ip" {
   value       = var.enable_guacamole == false ? null : aws_instance.guacamole[0].public_ip
 }
 
-output "guacamole_credentials" {
-  description = "Guacamole credentials"
-  value       = var.enable_guacamole == false ? null : data.external.guacamole_credentials[0].result
-}
+#output "guacamole_credentials" {
+#  description = "Guacamole credentials"
+#  value       = var.enable_guacamole == false ? null : data.external.guacamole_credentials[0].result
+#}
 
 output "flarevm_credentials" {
   description = "Default credentials for the PMAT FLARE-VM base AMI. PLEASE CHANGE THESE!"
@@ -26,4 +26,14 @@ output "flarevm_credentials" {
 output "remnux_credentials" {
   description = "Default credentials for the PMAT REMnux base AMI. PLEASE CHANGE THESE!"
   value = "remnux:malware"
+}
+
+output "guacamole_default_username" {
+  description = "Default netCUBE Guacamole server username"
+  value = "guacadmin" 
+}
+
+output "guacamole_default_password" {
+  description = "Instance ID of the Guacamole server, which is also the default password"
+  value = data.aws_instance.guacamole_id[0].id
 }

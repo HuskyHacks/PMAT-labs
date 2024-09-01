@@ -30,7 +30,7 @@ resource "aws_instance" "remnux" {
 
 resource "aws_instance" "guacamole" {
   count = var.enable_guacamole ? 1 : 0
-  ami   = var.guacamole-ami # bitnami guacamole 72d31fe1-c724-49d3-8981-a32cfbe0189e 
+  ami   = var.guacamole-ami #
 
   instance_type = "t2.medium"
 
@@ -67,12 +67,17 @@ resource "time_sleep" "wait_5_min" {
   create_duration = "5m"
 }
 
+# netCUBE's Guacamole instance uses default creds: 
+# username: guacadmin
+# password: [the instance ID]
+# so we don't need to retrieve the creds anymore
+
 # Get Guacamole credentials from get-console-output
-data "external" "guacamole_credentials" {
-  count   = var.enable_guacamole ? 1 : 0
-  program = ["bash", "get_password.sh"]
-  query = {
-    "instanceid" = data.aws_instance.guacamole_id[0].id
-  }
-  depends_on = [time_sleep.wait_5_min]
-}
+#data "external" "guacamole_credentials" {
+#  count   = var.enable_guacamole ? 1 : 0
+#  program = ["bash", "get_password.sh"]
+#  query = {
+#    "instanceid" = data.aws_instance.guacamole_id[0].id
+#  }
+#  depends_on = [time_sleep.wait_5_min]
+#}
