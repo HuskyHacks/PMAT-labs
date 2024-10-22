@@ -96,8 +96,10 @@ A: The shell does not spawn without a proper TLS handshake, so using a basic nca
 There are a few ways to coerce a shell to spawn from this binary. One is to use ncat with the `--ssl` option along with rerouting the traffic to the localhost like before:
 
 ```
-ncat -nvlp --ssl 8443
+ncat -nvlp  8443 --ssl
 ```
+![image](https://github.com/user-attachments/assets/4aeabecf-4f96-4e07-a666-7e3cf28538a6)
+
 ... and then running the malware again.
 
 Another is to pull the PowerShell payload out of the binary via decompression/base64 decoding, and remove the argument for `-sslcon true`. This removes the reverse shell's requirement to negotiate a TLS handshake.
