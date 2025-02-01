@@ -1,63 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
     <envs>
-        <env name="VM_COMMON_DIR" value="%ProgramData%\_VM"/>
-        <env name="TOOL_LIST_DIR" value="%UserProfile%\Desktop\Tools"/>
-        <env name="RAW_TOOLS_DIR" value="%SystemDrive%\Tools"/>
+        <env name="VM_COMMON_DIR" value="%ProgramData%\_VM" />
+        <env name="TOOL_LIST_DIR" value="%UserProfile%\Desktop\Tools" />
+        <env name="RAW_TOOLS_DIR" value="%SystemDrive%\Tools" />
     </envs>
     <packages>
-        <package name="010editor.vm"/>
-        <package name="7zip-15-05.vm"/>
-        <package name="apimonitor.vm"/>
-        <package name="apktool.vm"/>
-        <package name="capa.vm"/>
-        <package name="cmder.vm"/>
-        <package name="cyberchef.vm"/>
-        <package name="cutter.vm"/>
-        <package name="die.vm"/>
-        <package name="dnspyex.vm"/>
-        <package name="explorersuite.vm"/>
-        <package name="fakenet-ng.vm"/>
-        <package name="floss.vm"/>
-        <package name="ghidra.vm"/>
-        <package name="hashmyfiles.vm"/>
-        <package name="idafree.vm"/>
-        <package name="libraries.python3.vm"/>
-        <package name="map.vm"/>
-        <package name="notepadplusplus.vm"/>
-        <package name="notepadpp.plugin.compare.vm"/>
-        <package name="peid.vm"/>
-        <package name="processdump.vm"/>
-        <package name="regshot.vm"/>
-        <package name="rundotnetdll.vm"/>
-        <package name="sysinternals.vm"/>
-        <package name="uniextract2.vm"/>
-        <package name="vcbuildtools.vm"/>
-        <package name="wireshark.vm"/>
-        <package name="x64dbg.ollydumpex.vm"/>
-        <package name="x64dbg.vm"/>
-        <package name="x64dbgpy.vm"/>
-        <package name="dependencywalker.vm"/>
-        <package name="nmap.vm"/>
-        <package name="pebear.vm"/>
-        <package name="yara.vm"/>
-        <package name="hxd.vm"/>
-        <package name="pestudio.vm"/>
-        <package name="scdbg.vm"/>
-        <package name="python3.vm"/>
+        <package name="010editor.vm" />
+        <package name="7zip-15-05.vm" />
+        <package name="apimonitor.vm" />
+        <package name="apktool.vm" />
+        <package name="capa.vm" />
+        <package name="cmder.vm" />
+        <package name="cutter.vm" />
+        <package name="cyberchef.vm" />
+        <package name="dependencywalker.vm" />
+        <package name="die.vm" />
+        <package name="dnspyex.vm" />
+        <package name="explorersuite.vm" />
+        <package name="fakenet-ng.vm" />
+        <package name="floss.vm" />
+        <package name="ghidra.vm" />
+        <package name="hashmyfiles.vm" />
+        <package name="hxd.vm" />
+        <package name="idafree.vm" />
+        <package name="libraries.python3.vm" />
+        <package name="map.vm" />
+        <package name="nmap.vm" />
+        <package name="notepadplusplus.vm" />
+        <package name="notepadpp.plugin.compare.vm" />
+        <package name="pebear.vm" />
+        <package name="peid.vm" />
+        <package name="pestudio.vm" />
+        <package name="processdump.vm" />
+        <package name="python3.vm" />
+        <package name="regshot.vm" />
+        <package name="rundotnetdll.vm" />
+        <package name="scdbg.vm" />
+        <package name="sysinternals.vm" />
+        <package name="systeminformer.vm" />
+        <package name="uniextract2.vm" />
+        <package name="vcbuildtools.vm" />
+        <package name="vscode.extension.jupyter.vm" />
+        <package name="vscode.extension.python.vm" />
+        <package name="vscode.vm" />
+        <package name="windows-terminal.vm" />
+        <package name="wireshark.vm" />
+        <package name="x64dbg.ollydumpex.vm" />
+        <package name="x64dbg.vm" />
+        <package name="x64dbgpy.vm" />
+        <package name="yara.vm" />
     </packages>
     <registry-items>
-        <registry-item name="Show full directory path in Explorer title bar" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" value="FullPath" type="DWord" data="1"/>
-        <registry-item name="Show known file extensions" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value="HideFileExt" type="DWord" data="0"/>
-        <registry-item name="Show hidden files" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value="Hidden" type="DWord" data="1"/>
-        <registry-item name="Disable SmartScreen" path="HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" value="EnableSmartScreen" type="DWord" data="0" />
-        <registry-item name="Disable Microsoft Edge Phishing Filter" path="HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter" value="EnabledV9" type="DWord" data="0" />
-        <registry-item name="Disable Windows Firewall (Standard Profile)" path="HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile" value="EnableFirewall" type="DWord" data="0" />
-        <registry-item name="Add ZoomIt to Windows Start" path="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\run" value="ZoomIt" type="String" data="C:\Tools\sysinternals\ZoomIt64.exe" />
-        <registry-item name="Don't display ZoomIt GUI on login" path="HKCU:\Software\Sysinternals\ZoomIt" value="OptionsShown" type="DWord" data="1" />
-        <registry-item name="Auto arrange Desktop icons" path="HKCU:\SOFTWARE\Microsoft\Windows\Shell\Bags\1\Desktop" value="FFlags" type="DWord" data="1075839525"/>
-        <registry-item name="Hide the .lnk extension" path="HKLM:\SOFTWARE\Classes\lnkfile" value="NeverShowExt" type="String" data=" "/>
-        <registry-item name="Set Dark Mode on System" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" value="SystemUsesLightTheme" type="DWord" data="0"/>
-        <registry-item name="Set Dark Mode on Apps" path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" value="AppsUseLightTheme" type="DWord" data="0"/>
+        <registry-item name="Show full directory path in Explorer title bar"
+            path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState"
+            value="FullPath" type="DWord" data="1" />
+        <registry-item name="Show known file extensions"
+            path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
+            value="HideFileExt" type="DWord" data="0" />
+        <registry-item name="Show hidden files"
+            path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value="Hidden"
+            type="DWord" data="1" />
+        <registry-item name="Disable SmartScreen"
+            path="HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" value="EnableSmartScreen"
+            type="DWord" data="0" />
+        <registry-item name="Disable Microsoft Edge Phishing Filter"
+            path="HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter" value="EnabledV9"
+            type="DWord" data="0" />
+        <registry-item name="Disable Windows Firewall (Standard Profile)"
+            path="HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile"
+            value="EnableFirewall" type="DWord" data="0" />
+        <registry-item name="Add ZoomIt to Windows Start"
+            path="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\run" value="ZoomIt" type="String"
+            data="C:\Tools\sysinternals\ZoomIt64.exe" />
+        <registry-item name="Don't display ZoomIt GUI on login"
+            path="HKCU:\Software\Sysinternals\ZoomIt" value="OptionsShown" type="DWord" data="1" />
+        <registry-item name="Auto arrange Desktop icons"
+            path="HKCU:\SOFTWARE\Microsoft\Windows\Shell\Bags\1\Desktop" value="FFlags" type="DWord"
+            data="1075839525" />
+        <registry-item name="Hide the .lnk extension" path="HKLM:\SOFTWARE\Classes\lnkfile"
+            value="NeverShowExt" type="String" data=" " />
+        <registry-item name="Set Dark Mode on System"
+            path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize"
+            value="SystemUsesLightTheme" type="DWord" data="0" />
+        <registry-item name="Set Dark Mode on Apps"
+            path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize"
+            value="AppsUseLightTheme" type="DWord" data="0" />
     </registry-items>
+
+    <custom-items>
+        <!--
+        INFO:
+        Performs custom commands
+        FORMAT:
+        <custom-item name="DESCRIPTIVE_NAME"> <cmd value="PS_COMMAND"/> ... </custom-item>
+        -->
+        <custom-item name="Disabling Windows Firewall">
+            <cmd value="Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False" />
+        </custom-item>
+    </custom-items>
 </config>
