@@ -10,7 +10,7 @@ Welcome to the labs for Practical Malware Analysis &amp; Triage.
 
 ---
 
-[![Release Version][img-version-badge]][release] [![Course Link][course]][course-link] [![EULA][img-license-badge]][eula] ![student-count]
+[![Release Version][img-version-badge]][release] [![Course Link][course]][course-link] [![EULA][img-license-badge]][eula]
 
 ---
 
