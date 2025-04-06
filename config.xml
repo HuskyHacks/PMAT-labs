@@ -7,7 +7,7 @@
     </envs>
     <packages>
         <package name="010editor.vm" />
-        <package name="7zip-15-05.vm" />
+        <package name="7zip.vm" />
         <package name="apimonitor.vm" />
         <package name="apktool.vm" />
         <package name="capa.vm" />
@@ -46,9 +46,11 @@
         <package name="vscode.vm" />
         <package name="windows-terminal.vm" />
         <package name="wireshark.vm" />
-        <package name="x64dbg.ollydumpex.vm" />
+        <package name="x64dbg.plugin.dbgchild.vm" />
+        <package name="x64dbg.plugin.ollydumpex.vm" />
+        <package name="x64dbg.plugin.scyllahide.vm" />
+        <package name="x64dbg.plugin.x64dbgpy.vm" />
         <package name="x64dbg.vm" />
-        <package name="x64dbgpy.vm" />
         <package name="yara.vm" />
     </packages>
     <registry-items>
