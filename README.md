@@ -41,7 +41,6 @@ If you want to purchase the course and support me as a content creator, please a
 <div align="center">
   
 [![Course Link][course]][course-link]
-[![Course Affiliate Link][course-affil]][course-affil-link]
 
 </div>
 
