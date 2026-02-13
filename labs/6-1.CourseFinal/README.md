@@ -15,5 +15,3 @@ So, your course final is simple:
 - Then, publish the report and rules open-source and tell the world.
 
 You can publish your findings anywhere. I recommend adding them to a public GitHub repo or writing a blog post. But however you decide to do it, publish it for the world to see.
-
-When you're done, post a link to it in the `#course-final` channel in the Discord! Then, go to the `#i-finished` channel and claim your `@PMAT-graduate` role on the server.

@@ -1,6 +1,6 @@
 # Course Conclusion
 
-If you're reading this, congratulations! You have made it all the way through Practical Malware Analysis & Triage. I hope you enjoyed this course! If you have any feedback, I'd love to hear how I can make this course better. Feel free to DM me on Discord and let me know your thoughts on how to improve this course for future students.
+If you're reading this, congratulations! You have made it all the way through Practical Malware Analysis & Triage. I hope you enjoyed this course! If you have any feedback, I'd love to hear how I can make this course better. Feel free to email me and let me know your thoughts on how to improve this course for future students.
 
 I wanted to end with a few further readings & resources to give you a good idea on where to continue your malware analysis & RE journey. 
 
