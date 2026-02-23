@@ -62,6 +62,41 @@ Checklist:
 
 ---
 
+### INetSim: deprecated method / Net::DNS subprocess error on startup
+
+You see output like:
+
+- `dns_53_tcp_udp - started (PID …)`
+- `deprecated method; prefer start_server() at /usr/share/perl5/INetSim/DNS.pm line 69`
+- `Attempt to start Net::DNS::Nameserver in a subprocess at /usr/share/perl5/INetSim/DNS.pm line 69`
+
+Fix by installing build tools, downgrading Net::DNS to a known-good version, and verifying:
+
+**1. Install required tools**
+
+```bash
+sudo apt update
+sudo apt install -y cpanminus make gcc
+```
+
+**2. Downgrade Net::DNS to a known-working version**
+
+```bash
+sudo cpanm -n Net::DNS@1.37
+```
+
+**3. Verify the Net::DNS version**
+
+```bash
+perl -MNet::DNS -e 'print "$Net::DNS::VERSION\n"'
+```
+
+Expected output: `1.37`
+
+**4. Start INetSim** to confirm it runs without the error.
+
+---
+
 ### Everything looks correct and DNS works for normal URLs, but malware DNS doesn’t show up
 
 - Double-check your tool and filter settings.
